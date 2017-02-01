@@ -4,10 +4,29 @@
 	<meta charset="UTF-8">
 	<title>Template Website PW</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
-	<header class="Header"></>
-		<nav class="Header-nav"></nav>
+	<header class="Header">
+		<figure class="Header-figure">
+			<img src="img/logo.png" alt="isologo">
+		</figure>
+		<nav class="Header-nav">
+			<label for="menu">		
+				<span class="icon-menu"></span>
+			</label>
+			<input type="checkbox" class="Header-check" id="menu">		
+			<ul class="Header-menu">
+				<li><a href="#">link</a></li>
+				<li><a href="#">link</a></li>
+				<li><a href="#">link</a></li>
+				<label for="menu">		
+					<span>x</span>
+				</label>
+				<input type="checkbox" class="Header-check" id="menu">
+			</ul>
+		</nav>
 	</header>
 	<main class="MainIndex">
 		<section class="MainIndex-sidebar"></section>
