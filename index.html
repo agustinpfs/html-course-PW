@@ -29,26 +29,93 @@
 		</nav>
 	</header>
 	<main class="MainIndex">
-		<section class="MainIndex-sidebar"></section>
+		<section class="Slides">
+			<div class="Slides-container">
+			  <div class="Slides-fade slide">
+			    <div class="Slides-pagination">1 / 4</div>
+			    <picture>
+			      <source srcset="img/image1-medium-retina.jpg" media="(min-width: 500px)"" />
+			      <source srcset="img/image1-large-retina.jpg" media="(min-width: 1200px)" />
+			      <img srcset=""/>
+			    </picture>
+				<div class="Slides-description">Description</div>
+			  </div>
+
+			  <div class="Slides-fade slide">
+			    <div class="Slides-pagination">2 / 4</div>
+			    <picture>
+			      <source srcset="img/image2-medium-retina.jpg" media="(min-width: 500px)"" />
+			      <source srcset="img/image2-large-retina.jpg" media="(min-width: 1200px)" />
+			      <img srcset=""/>
+			    </picture>
+				<div class="Slides-description">Description</div>
+			  </div>
+
+			  <div class="Slides-fade slide">
+			    <div class="Slides-pagination">3 / 4</div>
+			    <picture>
+			      <source srcset="img/image3-medium-retina.jpg" media="(min-width: 500px)"" />
+			      <source srcset="img/image3-large-retina.jpg" media="(min-width: 1200px)" />
+			      <img srcset=""/>
+			    </picture>
+				<div class="Slides-description">Description</div>
+			  </div>
+
+			  <div class="Slides-fade slide">
+			    <div class="Slides-pagination">4 / 4</div>
+			    <div class="Slides-exampleHTML">También podemos usar los sliders para agregar HTML!!!</div>
+			    <div class="Slides-description">Description</div>
+			  </div>
+
+			  <a class="Slides-prev" onclick="plusSlides(-1)">&#10094;</a>
+			  <a class="Slides-next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+			<br>
+
+			<div style="text-align:center">
+			  <span class="Slides-dot dot" onclick="currentSlide(1)"></span> 
+			  <span class="Slides-dot dot" onclick="currentSlide(2)"></span> 
+			  <span class="Slides-dot dot" onclick="currentSlide(3)"></span> 
+			  <span class="Slides-dot dot" onclick="currentSlide(4)"></span> 
+			</div>
+
+
+
+		</section>
 		<section class="MainIndex-description">
-			<article></article>
+			<article>
+				<h1>Descripción Principal</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati cumque harum, mollitia consectetur distinctio eum delectus, sequi ratione doloremque nesciunt nobis consequatur sed ea officiis corporis non alias nostrum. Facilis odio praesentium sunt consequatur quos ipsum porro, harum laborum hic itaque cum reiciendis, delectus aspernatur voluptate vel alias placeat ipsa et, soluta debitis deleniti. Repellendus placeat cum nesciunt accusantium, molestias deserunt esse aspernatur, fugiat laborum praesentium, quo sapiente, beatae id culpa magni ad? Recusandae impedit voluptas illo, alias sunt labore.</p>
+			</article>
 		</section>
 		<section class="MainIndex-features">
-			<article></article>
-			<article></article>
-			<article></article>
+			<article>
+				<span class="icon-menu"></span>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio aspernatur, error, dolore ad voluptatem placeat!</p>
+			</article>
+			<article>
+				<span class="icon-menu"></span>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis doloribus, explicabo illo maxime eaque odio!</p>
+			</article>
+			<article>
+				<span class="icon-menu"></span>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, sint quo doloremque culpa vero nesciunt.</p>
+			</article>
 		</section>
 		<section class="MainIndex-articles">
-			<article></article>
-			<article></article>
-			<article></article>
+			<article>articles</article>
+			<article>articles</article>
+			<article>articles</article>
 		</section>
 	</main>
 	<aside class="AsideMain">
-		<section class="AsideMain-tabs"></section>
+		<section class="AsideMain-tabs">aside!!!!</section>
 		<section class="AsideMain-twitter"></section>
 		<section class="AsideMain-accordion"></section>
 	</aside>
-	<footer class="Footer"></footer>	
+	<footer class="Footer"></footer>
+
+	<script src="js/script.js"></script>
+
 </body>
 </html>
