@@ -10,7 +10,7 @@
 <body>
 	<header class="Header">
 		<figure class="Header-figure">
-			<img src="img/logo.png" alt="isologo">
+			<img src="img/isologo.png" alt="isologo">
 		</figure>
 		<nav class="Header-nav">
 			<label for="menu">		
@@ -18,9 +18,9 @@
 			</label>
 			<input type="checkbox" class="Header-check" id="menu">		
 			<ul class="Header-menu">
-				<li><a href="#">link</a></li>
-				<li><a href="#">link</a></li>
-				<li><a href="#">link</a></li>
+				<li><a href="#">menu-link</a></li>
+				<li><a href="#">menu-link</a></li>
+				<li class="opencontact"><a href="#">contacto</a></li>
 				<label for="menu">		
 					<span>x</span>
 				</label>
@@ -90,30 +90,206 @@
 		</section>
 		<section class="MainIndex-features">
 			<article>
-				<span class="icon-menu"></span>
+				<span class="icon-tap_and_play"></span>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio aspernatur, error, dolore ad voluptatem placeat!</p>
 			</article>
 			<article>
-				<span class="icon-menu"></span>
+				<span class="icon-verified_user"></span>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis doloribus, explicabo illo maxime eaque odio!</p>
 			</article>
 			<article>
-				<span class="icon-menu"></span>
+				<span class="icon-wifi_tethering"></span>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, sint quo doloremque culpa vero nesciunt.</p>
 			</article>
 		</section>
 		<section class="MainIndex-articles">
-			<article>articles</article>
-			<article>articles</article>
-			<article>articles</article>
+			<article>
+				<div class="MainIndex-layerHover">
+					<div class="MainIndex-contentHover">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae reprehenderit sunt cum voluptatibus dolor obcaecati...</p>
+						<a href="#" class="button">Entrar</a>
+					</div>				
+				</div>
+				<figure>
+					<img src="img/art-img1.jpg" alt="">
+					<h2>Título artículo</h2>
+				</figure>
+			</article>
+			<article>
+				<div class="MainIndex-layerHover">
+					<div class="MainIndex-contentHover">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab tenetur a laudantium! Itaque, deleniti sunt....</p>
+						<a href="#" class="button">Entrar</a>
+					</div>				
+				</div>
+				<figure>
+					<img src="img/art-img2.jpg" alt="">
+					<h2>Título artículo</h2>
+				</figure>
+			</article>
+			<article>
+				<div class="MainIndex-layerHover">
+					<div class="MainIndex-contentHover">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente repudiandae vitae totam, ad exercitationem neque....</p>
+						<a href="#" class="button">Entrar</a>
+					</div>
+				</div>
+				<figure>
+					<img src="img/art-img3.jpg" alt="">
+					<h2>Título artículo</h2>
+				</figure>
+			</article>
+			<article>
+				<div class="MainIndex-layerHover">
+					<div class="MainIndex-contentHover">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente repudiandae vitae totam, ad exercitationem neque....</p>
+						<a href="#" class="button">Entrar</a>
+					</div>
+				</div>
+				<figure>
+					<img src="img/art-img3.jpg" alt="">
+					<h2>Título artículo</h2>
+				</figure>
+			</article>
+			<article>
+				<div class="MainIndex-layerHover">
+					<div class="MainIndex-contentHover">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente repudiandae vitae totam, ad exercitationem neque....</p>
+						<a href="#" class="button">Entrar</a>
+					</div>
+				</div>
+				<figure>
+					<img src="img/art-img1.jpg" alt="">
+					<h2>Título artículo</h2>
+				</figure>
+			</article>
+			<article>
+				<div class="MainIndex-layerHover">
+					<div class="MainIndex-contentHover">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente repudiandae vitae totam, ad exercitationem neque....</p>
+						<a href="#" class="button">Entrar</a>
+					</div>
+				</div>
+				<figure>
+					<img src="img/art-img2.jpg" alt="">
+					<h2>Título artículo</h2>
+				</figure>
+			</article>
 		</section>
 	</main>
 	<aside class="AsideMain">
-		<section class="AsideMain-tabs">aside!!!!</section>
-		<section class="AsideMain-twitter"></section>
-		<section class="AsideMain-accordion"></section>
+		<section class="AsideMain-tabs">
+			<ul>
+			  <li><a href="javascript:void(0)" class="tablinks" onclick="openItem(event, 'tab1')" id="defaultOpen">Último</a>
+			  <li><a href="javascript:void(0)" class="tablinks" onclick="openItem(event, 'tab2')">Popular</a>
+			  <li><a href="javascript:void(0)" class="tablinks" onclick="openItem(event, 'tab3')">En Desarrollo</a>
+			</ul>
+
+			<div id="tab1" class="AsideMain-tabcontent">
+				<ul>
+					<li>Items-último-Lorem ipsum</li>
+					<li>Items-último-Lorem ipsum</li>
+					<li>Items-último-Lorem ipsum</li>
+					<li>Items-último-Lorem ipsum</li>
+				</ul>
+			</div>
+
+			<div id="tab2" class="AsideMain-tabcontent">
+				<ul>
+					<li>Items-popular-</li>
+					<li>Items-popular-</li>
+					<li>Items-popular-</li>
+					<li>Items-popular-</li>
+				</ul>
+			</div>
+
+			<div id="tab3" class="AsideMain-tabcontent">
+				<ul>
+					<li>Items-enCurso-Lorem</li>
+					<li>Items-enCurso-Lorem</li>
+					<li>Items-enCurso-Lorem</li>
+					<li>Items-enCurso-Lorem</li>
+				</ul>
+			</div>
+		</section>
+		<section class="AsideMain-twitter">
+			<a class="twitter-timeline" data-tweet-limit=3 href="https://twitter.com/TwitterDev/timelines/539487832448843776">National Park Tweets - Curated tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+		</section>
+		<section class="AsideMain-accordion">
+			<h2>Team</h2>
+			<button class="accordion">@twittername1</button>
+			<div class="panel">
+				<img src="img/perfil1.jpeg" alt="" width="150" height="200">
+			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, consequuntur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, debitis.</p>
+			</div>
+
+			<button class="accordion">@twittername2</button>
+			<div class="panel">
+				<img src="img/perfil2.png" alt="" width="150" height="200">
+			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, eos.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, veniam.</p>
+			</div>
+
+			<button class="accordion">@twittername3</button>
+			<div class="panel">
+				<img src="img/perfil3.jpeg" alt="" width="150" height="200">
+			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, quas!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, ipsum.</p>
+			</div>
+		</section>
 	</aside>
-	<footer class="Footer"></footer>
+	<footer class="Footer">
+		<section class="Footer-copy">
+			<span>&copy; PANDAWEBS 2017</span>
+		</section>
+		<section class="Footer-nav">
+			<nav>				
+				<ul>					
+					<li class="opencontact2"><a href="#">contacto</a></li>
+					<li><a href="">enlace2</a></li>
+					<li><a href="">enlace3</a></li>
+					<li><a href="">enlace4</a></li>
+					<li><a href="">enlace5</a></li>
+					<li><a href="">enlace6</a></li>
+					<li><a href="">enlace7</a></li>
+					<li><a href="">enlace8</a></li>
+					<li><a href="">enlace9</a></li>
+				</ul>
+			</nav>
+		</section>
+		<section class="Footer-social">
+			<span class="icon-facebook2"></span>
+			<span class="icon-twitter"></span>
+			<span class="icon-youtube"></span>
+			<span class="icon-linkedin"></span>
+		</section>
+	</footer>
+	<div class="Modal myModal">
+
+	  <!-- Modal content -->
+	  <div class="Modal-content">
+
+
+	  <form class="contact_form" action="" method="post" name="contact_form">
+		<input type="text" placeholder="Tu nombre" required>
+		<input type="email" placeholder="Tu Email" required>
+		<textarea placeholder="Tu mensaje" required></textarea>
+		<button type="submit" id="contact-submit">Enviar</button>
+	  </form>
+	  <span class="Modal-close">&times;</span>
+
+	    <!-- <div class="Modal-header">
+	      <span class="Modal-close">&times;</span>
+	      <h2>Modal Header</h2>
+	    </div>
+	    <div class="Modal-body">
+	      <p>Some text in the Modal Body</p>
+	      <p>Some other text...</p>
+	    </div>
+	    <div class="Modal-footer">
+	      <h3>Modal Footer</h3>
+	    </div> -->
+	  </div>
+
+	</div>
 
 	<script src="js/script.js"></script>
 
