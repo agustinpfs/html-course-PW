@@ -1035,6 +1035,10 @@ textarea {
 
 .Article p {
 	margin-top: 2rem;
+	padding-bottom: 5rem;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 5rem;
+
 
 }
 
