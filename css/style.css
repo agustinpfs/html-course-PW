@@ -1008,7 +1008,7 @@ textarea {
 
 
 
-
+/* PAGE */
 
 
 .Article {
@@ -1035,8 +1035,8 @@ textarea {
 
 .Article p {
 	margin-top: 2rem;
-	padding-bottom: 5rem;
-	border-bottom: 1px solid #ccc;
+	padding-bottom: 8rem;
+	border-bottom: 1px solid #3b94d9;
 	margin-bottom: 5rem;
 
 
@@ -1106,4 +1106,8 @@ TABS
 
 /*
 FOOTER
+*/
+
+/*
+PAGE
 */
