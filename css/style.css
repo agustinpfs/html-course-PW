@@ -371,7 +371,7 @@ li {
 .AsideMain {
 	width: 100%;
 	display: block;
-	border-left: 3px solid grey;
+	/* border-left: 3px solid grey; */
 	margin-top: .5rem;
 }
 
