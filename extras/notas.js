@@ -7,6 +7,8 @@ header layout full
 tags explain
 anidación
 
+DOM javascript
+
 css definición
 link hoja
 box model
